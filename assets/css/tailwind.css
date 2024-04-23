@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__nuxt {
+  font-optical-sizing: auto;
+  font-style: normal;
+  @apply w-full h-full scroll-smooth font-pt-serif bg-base-60 text-neutral-950;
+}
